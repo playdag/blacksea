@@ -1,0 +1,158 @@
+@font-face {
+	font-family: 'CherrySwash';	
+	src: url("../fonts/CherrySwash-Regular.ttf");
+}
+@font-face {
+	font-family: 'HelveticaCon';	
+	src: url("../fonts/Helvetica LT Condensed Medium.ttf");
+}
+@font-face {
+	font-family: 'HelveticaBold';	
+	src: url("../fonts/HelveticaLTStd-Bold.otf");
+}
+@font-face {
+	font-family: 'HelveticaLight';	
+	src: url("../fonts/HelveticaLTStd-Light.otf");
+}
+@font-face {
+	font-family: 'HelveticaRoman';	
+	src: url("../fonts/HelveticaLTStd-Roman.otf");
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+    color: white;
+}
+li {
+	list-style: none;
+}
+
+.header {
+	width: 100%;
+	background-color: #4C96A1;
+	padding: 30px 12%; 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	font-family: 'CherrySwash'; 
+	color: white;
+}
+.nav {
+	display: flex;
+}
+.nav li {
+	color: white;
+	font-family: 'HelveticaCon';
+	margin-left: 20px;
+	font-size: 18px;
+}
+.main {
+	width: 100%;
+	height: 866px;
+	background: url('../img/banner.png') no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.main-header {
+	color: #E4E4E4;
+	font-family: 'HelveticaBold';
+	font-size: 60px;
+	text-align: center;
+}
+.button {
+	border: 4px solid #AFB1B4;
+	border-radius: 8px;
+	padding: 7px 63px;
+	font-family: 'HelveticaLight';
+	font-size: 38px;
+	color: #E4E4E4;
+	margin-top: 45px;
+}
+.sec_main {
+	width: 100%;
+	height: 664px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.info {
+	font-size: 40px;
+	font-family: 'HelveticaLight';
+	text-align: center;
+}
+.sec-info {
+	font-family: 'HelveticaRoman';
+	font-size: 20px;
+	text-align: center;
+	margin-top: 75px;
+}
+.korzina {
+	width: 75px;
+	height: 72px;
+}
+.globus {
+	width: 75px;
+	height: 72px;
+	margin-left: 140px;
+}
+.case {
+	width: 75px;
+	height: 72px;
+	margin-left: 140px;
+}
+.sec-main-images {
+	display: flex;
+	justify-content: center;
+	margin-top: 110px;
+}
+.testimonial {
+	width: 100%;
+	height: 664px;
+	background-color: #00D186;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.face {
+	width: 200px;
+	height: 200px;
+	margin-left: 150px;
+}
+.dhavan {
+	display: flex;
+	flex-direction: column;
+	margin-left: 40px;
+}
+.dhavan_text {
+	font-family: 'HelveticaBold';
+	font-size: 35px;
+	color: white;
+}
+.kovychki {
+	font-family: 'HelveticaBold';
+	font-size: 220px;
+	color: #00DBA3;
+}
+.facetext {
+	display: flex;
+}
+.testi-text {
+	font-family: 'HelveticaLight';
+	font-size: 25px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	margin: 0px 
+}
